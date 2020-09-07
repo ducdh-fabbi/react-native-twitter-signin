@@ -1,9 +1,11 @@
 [![npm version](https://badge.fury.io/js/react-native-twitter-signin.svg)](https://badge.fury.io/js/react-native-twitter-signin)
 
-Note: this guide is for TwitterKit 3.3 and ReactNative 0.56+.
+Note: this guide is for TwitterKit5 and ReactNative 0.60+.
 
 # React Native : Twitter Signin
 This package provides necessary code to get your social sign in using Twitter works with least pain possible.
+This package is change TwitterKit 3.3 => TwitterKit5
+Fix bug UIWebView is deprecated in IOS
 
 ## Table of contents
 - [Prerequisites](#prerequisites)
@@ -29,7 +31,7 @@ From Twitter Kit 3.3, Fabric is no longer required.
 
 Firstly, install the npm package:
 
-    npm install react-native-twitter-signin --save
+    npm install @ducdh-origin/react-native-twitter-signin --save
 
 ### iOS
 
@@ -69,7 +71,7 @@ Firstly, install the npm package:
  // Podfile
  target 'MyApp' do
    # use_frameworks!
-   pod 'TwitterKit', '~> 3.3.0'
+   pod 'TwitterKit5'
  end
  ```
  - Run `pod install`
